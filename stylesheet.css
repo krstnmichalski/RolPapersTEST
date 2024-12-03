@@ -1,0 +1,94 @@
+
+@font-face {
+    font-family: Extend;
+    src: url(misc/extended-extended-regular-400.ttf);
+}
+
+.age-verification {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0; /* Remove default margin */
+    text-align: center !important;
+}
+
+
+body {
+    font-family: Extend !important;
+    color: #000000 !important;
+    background-color: #c2e3ee !important;
+    overflow-x: hidden;
+}
+
+.align-icon{
+    display: inline !important;
+    align-items: flex-start !important;
+    padding: 5px;
+}
+
+.navbar {
+    background-color: #ffffff;
+    color: #000000 !important;
+    font-family: Extend !important;
+}
+
+
+.banner-img {
+    width: 90%;
+    max-width: max-content;
+    text-align: center !important;
+}
+
+.social-links {
+    color: #000000 !important;
+    font-family: Arial, sans-serif !important;
+}
+
+.social-insta {
+    color: #000000 !important;
+    font-family: Arial, sans-serif !important;
+}
+
+.navbar-brand img{
+    margin-right: 10px;
+}
+footer {
+    font-family: Arial, sans-serif;
+    margin-top: 50px;
+    padding-top: 10px;
+    color: #000000 !important;
+    background-color: #ffffff;
+    height: 175px;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+.custom-dropdown-button {
+    color: #000000 !important; /* Light gray text */ 
+    font-family: Arial, sans-serif !important;
+    background-color: #1d1d1d !; /* Dark gray background */
+}
+
+.custom-dropdown-button:hover {
+    background-color: #2a2a2a; /* Slightly lighter background on hover */
+}
+
+.main-section{
+    font-family: Arial, sans-serif !important;
+}
+
+.carousel-img-banner{
+    max-width: 1200px; /* Set desired width */
+    height: auto; /* Maintain aspect ratio */
+    margin: 0 auto; /* Center the image */
+}
+
+.carousel-img-products{
+    max-width: 500px; /* Set desired width */
+    height: auto; /* Maintain aspect ratio */
+    margin: 0 auto; /* Center the image */
+}
+
+
